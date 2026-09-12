@@ -1,21 +1,21 @@
 # 🎲 Guess the Number Game
 
-A terminal-based Python game built as part of **Hack Club Stardance**. The player attempts to guess a randomly generated secret number between 1 and 100 with real-time feedback and attempt tracking.
+A terminal-based Python game built for **Hack Club Stardance**. The player tries to guess a randomly generated secret number between 1 and 100 with real-time feedback and attempt tracking.
 
 ---
 
 ## 🚀 Features
 
-* **Interactive Gameplay:** Simple, engaging CLI loop providing immediate high/low feedback.
-* **Input Validation:** Built-in safeguards using `.isdigit()` to prevent crashes when non-numeric inputs are entered.
-* **Attempt Tracking:** Keeps count of total guesses until the correct answer is found.
-* **Secret Reveal:** Confirms the final secret number and total attempt tally upon winning.
+* **Interactive Gameplay:** Provides immediate "Too high!" or "Too low!" hints after every guess.
+* **Input Validation:** Uses `.isdigit()` checks to prevent the program from crashing if a user enters non-numeric input.
+* **Attempt Tracker:** Keeps an accurate count of total guesses taken during the round.
+* **Secret Reveal:** Confirms the secret number upon winning.
 
 ---
 
-## 🛠️ Prerequisites & Installation
+## 🛠️ Prerequisites
 
-- **Python 3.x** installed on your system.
+* **Python 3.x** installed on your system.
 
 ---
 
@@ -23,4 +23,4 @@ A terminal-based Python game built as part of **Hack Club Stardance**. The playe
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
+   git clone [https://github.com/Bhargavkelkar/Guess-the-number-in-python.git](https://github.com/Bhargavkelkar/Guess-the-number-in-python.git)
